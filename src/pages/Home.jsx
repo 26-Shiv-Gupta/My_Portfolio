@@ -20,7 +20,7 @@ const item = {
 }
 
 const heroStats = [
-  { label: 'Full-stack projects shipped', value: '2+' },
+  { label: 'Projects completed', value: '10+' },
   { label: 'Years at Webologix', value: '2+' },
   { label: 'Learners mentored', value: '100+' },
 ]
