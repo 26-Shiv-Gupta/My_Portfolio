@@ -15,8 +15,7 @@ export const projects = [
       'Modeled a MongoDB schema for rides, users, captains, and vehicles, supporting full ride-status transitions',
     ],
     tags: ['React', 'Tailwind CSS', 'GSAP', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
-    repo: '#',
-
+    repo: 'https://github.com/26-Shiv-Gupta/Roam',
     accent: 'from-cyan-400 to-violet-500',
   },
   {
@@ -50,10 +49,10 @@ export const projects = [
       'Cut repetitive manual outreach by automating applications to 50 companies in a single run',
     ],
     tags: ['Node.js', 'Nodemailer', 'SheetJS', 'dotenv', 'Gmail SMTP', 'Async/Await'],
-    repo: '#',
+    repo: 'https://github.com/26-Shiv-Gupta/Job-Mailer',
     accent: 'from-emerald-400 to-cyan-500',
-},
-{
+  },
+  {
     title: 'Coriander Leaf',
     subtitle: 'Restaurant Booking & Management Platform',
     description:
@@ -67,8 +66,42 @@ export const projects = [
       'Developed a dynamic menu page with search, vegan, bestseller and spice filters, skeleton loaders and error/retry handling, plus a photo gallery with a lightbox',
     ],
     tags: ['React', 'Vite', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Nodemailer', 'Twilio'],
-    repo: '#',
-    live: '#',
+    repo: 'https://github.com/26-Shiv-Gupta/Coriander-Leaf-Restaurant',
     accent: 'from-green-400 to-amber-500',
-},
+  },
+  {
+    title: 'Developer Portfolio',
+    subtitle: 'Responsive Personal Portfolio Website',
+    description:
+      'A responsive single-page portfolio built with React and Vite, with About, Resume, Portfolio and Contact sections. It has a dark theme, a filterable project gallery and a mobile-first layout.',
+    highlights: [
+      'Built a single-page app with React 19 and Vite, using a component-based structure and useState-driven navigation for instant section switching without page reloads',
+      'Developed a mobile-first responsive layout with CSS Grid, Flexbox and media queries, including a sticky desktop sidebar, a collapsible mobile profile header and a fixed bottom tab bar with safe-area support',
+      'Created a filterable project gallery with category tabs, hover overlays and animated cards for quick project browsing',
+      'Designed a data-driven content layer with reusable constants for skills, experience, education and projects, so content updates need no UI changes',
+      'Built a resume page with education and experience timelines (custom CSS pseudo-element timeline) and a contact section with a form UI',
+      'Applied a consistent dark theme with custom CSS transitions, styled scrollbars and Google Fonts typography',
+    ],
+    tags: ['React', 'Vite', 'JavaScript', 'Tailwind CSS', 'CSS3', 'Responsive Design'],
+    repo: 'https://github.com/26-Shiv-Gupta/Portfolio_template',
+    live: 'https://portfoliositetemplate.netlify.app/',
+    accent: 'from-yellow-400 to-amber-500',
+  },
+  {
+    title: 'Dice Game',
+    subtitle: 'Interactive Number-Guessing Game',
+    description:
+      'A browser-based dice game built with React where players pick a number, roll the dice and win or lose points based on the result, with a clean start screen and a game screen.',
+    highlights: [
+      'Built a two-screen app (Home and Game) using component-based architecture, switching screens with React state and conditional rendering',
+      'Implemented game logic with React Hooks: random dice roll, score add/deduct on match or mismatch, and a one-click score reset',
+      'Added input validation with a timed error message that stops rolls until the player picks a number',
+      'Created an auto-dismissing rules overlay using setTimeout to guide new players without cluttering the UI',
+      'Styled the UI with scoped styled-components, including hover and selected states for the number picker and dynamic dice-face images that update on every roll',
+    ],
+    tags: ['React', 'Vite', 'JavaScript', 'styled-components', 'CSS3'],
+    repo: 'https://github.com/26-Shiv-Gupta/Dice-Game',
+    live: 'https://dicestrike.netlify.app/',
+    accent: 'from-gray-700 to-gray-900',
+  },
 ]
