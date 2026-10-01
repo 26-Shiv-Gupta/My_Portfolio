@@ -16,6 +16,7 @@ export const projects = [
     ],
     tags: ['React', 'Tailwind CSS', 'GSAP', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
     repo: 'https://github.com/26-Shiv-Gupta/Roam',
+    live: 'https://roam-3t2y.onrender.com/',
     accent: 'from-cyan-400 to-violet-500',
   },
   {
